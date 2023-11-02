@@ -1,10 +1,10 @@
-FROM node:16 as development
+FROM node:16 
 
 WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm install --only=development
+RUN npm install
 
 RUN npm install rimraf
 
