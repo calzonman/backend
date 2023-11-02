@@ -21,7 +21,7 @@ services:
     restart: unless-stopped
     environment:
       DB_NAME: disruptiva
-      DB_HOST: db
+      DB_HOST: finalfinal-403911:us-central1:backend
       DB_USER: postgres
       DB_ROOT_PASSWORD: disruptivapass
       DB_PASSWORD: disruptivapass
